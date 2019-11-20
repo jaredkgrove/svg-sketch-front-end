@@ -1,0 +1,42 @@
+.home{
+    text-align: center;
+}
+
+.recently-created{
+    display: inline-block;
+    margin: 10px;
+}
+
+.recently-updated{
+    display: inline-block;
+    margin: 10px;
+}
+
+.home form{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 8vh;
+  }
+
+  .home input[type="submit"]{
+    height: 100%;
+    width: 10vw;
+    background: hsl(207, 80%, 50%);
+    
+    border: none;
+    padding: 0;
+    margin: 0;
+    top:0;
+  }
+
+  .home input[type="text"]{
+    box-sizing: border-box;
+    font-size: 1em;
+    padding: 0 0 0 1vh;
+    line-height: 1em;
+    height: 6vh;
+    width: 20vw;
+    margin: 0 1vh 0 0;
+    border: none;
+}

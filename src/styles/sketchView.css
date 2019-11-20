@@ -1,0 +1,142 @@
+.sketch-view{
+    text-align: center;
+    height: 90vh;
+
+}
+
+.sketch-list h1{
+    font-size: 3vh;
+    padding: 0px;
+    float: left;
+    clear: both;
+}
+
+.sketch-data h1{
+    color:  hsl(207, 80%, 50%);
+    font-size: 3vh;
+    padding: 0px;
+    clear: both;
+}
+
+
+.sketch-data h6{
+    margin: 0px;
+    padding: 0px 0 10px 0;
+    clear: both;
+}
+
+.sketch-data a{
+    display: inline-block;
+    height: 8vh;
+    width: 10vw;
+    line-height: 8vh;
+    background: hsl(207, 80%, 50%);
+}
+
+.sketch-data button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  color: hsl(207, 10%, 90%);
+  border: none;
+  display: inline-block;
+  height: 8vh;
+  width: 10vw;
+  line-height: 8vh;
+  margin-top: 10px;
+  background: hsl(15, 80%, 50%);
+}
+
+.sketch-view .sketch-board.preview{
+    box-sizing: border-box ;
+    border-radius: 10px;
+    background: hsl(207, 5%, 90%);
+  }
+
+.sketch-view .sketch-list{
+    box-sizing: border-box ;
+    float: left;
+    padding: 1vw 0.5vw 1vw 0.5vw;
+    margin: 0 0 0 0.75vw;
+    border-radius: 10px;
+    width: 12%;
+    background:  hsl(207, 25%, 20%);
+    clear: none;
+    text-align: left;
+}
+
+.sketch-view .sketch-list a {
+    color: hsl(207, 50%, 60%);
+    clear: both;
+    float: left;
+  }
+
+  
+  
+  .sketch-view .sketch-list a:hover {
+    color: hsl(207, 80%, 50%);
+  }
+  
+
+.sketch-view .sketch-data{
+    box-sizing: border-box ;
+    float: left;
+    padding: 1vw 0.5vw 1vw 0.5vw;
+    margin: 0 0 0 0.75vw;
+    border-radius: 10px;
+    width: 12%;
+    background:  hsl(207, 25%, 20%);
+    clear: none;
+    text-align: center;
+}
+
+
+
+.sketch-view .sketch-show{
+    box-sizing: border-box;
+    clear: none;
+      text-align: center;
+      float: right;
+      height: 90vh;
+      width: 74vw;
+}
+
+
+.sketch-view form{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 8vh;
+  }
+
+  .sketch-view input[type="submit"]{
+    height: 100%;
+    width: 10vw;
+    background: hsl(207, 80%, 50%);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: hsl(207, 10%, 90%);
+    display: inline-block;
+    height: 8vh;
+    width: 10vw;
+    line-height: 8vh;
+  
+    background: hsl(207, 80%, 50%);
+
+    border: none;
+    padding: 0;
+    margin: 0;
+    top:0;
+  }
+
+  .sketch-view input[type="text"]{
+    box-sizing: border-box;
+    font-size: 1em;
+    padding: 0 0 0 1vh;
+    line-height: 1em;
+    height: 6vh;
+    width: 20vw;
+    margin: 0 1vh 0 0;
+    border: none;
+}

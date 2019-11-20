@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: hsl(207, 20%, 25%);
+  height: 100vh;
+  color: hsl(207, 10%, 90%);
+}
+
+.App-header {
+  background-color: #282c34;
+  line-height: 8vh;
+  min-height: 8vh;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 1vh;
+}
+
+.App-link {
+  color: hsl(207, 50%, 60%);
+  float: left;
+  margin-left: 10px;
+
+}
+
+.App-link:hover {
+  color: hsl(207, 80%, 50%);
+}
+
+a{
+  text-decoration: none;
+  color: hsl(207, 10%, 90%);
+}
+
+button{
+  text-decoration: none;
+  color: hsl(207, 10%, 90%);
+}
+
+a:hover{
+  text-decoration: none;
+  color: hsl(207, 80%, 50%);
+}
+
+
+

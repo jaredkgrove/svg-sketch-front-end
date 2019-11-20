@@ -1,0 +1,149 @@
+.edit-view{
+  box-sizing: border-box ;
+    text-align: center;
+}
+
+.edit-view .settings{
+  box-sizing: border-box ;
+  float: left;
+  padding: 1vw 0.5vw 1vw 0.5vw;
+  margin: 0 0 0 1vw;
+  border-radius: 10px;
+  min-height: 380px;
+  width: 14%;
+  background:  hsl(207, 25%, 20%);
+  clear: none;
+}
+
+.edit-view .sketch-board{
+  box-sizing: border-box ;
+  border-radius: 10px;
+  background: hsl(207, 5%, 90%);
+  
+}
+
+.edit-view .edit-sketch{
+  box-sizing: border-box;
+  clear: none;
+  text-align: center;
+  float: right;
+  height: 100%;
+  width: 84%;
+}
+
+  .edit-sketch button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 8vh;
+    width: 10vw;
+    background: hsl(207, 80%, 50%);
+    padding: 0;
+    border: none;
+  }
+
+  .settings h3{
+    box-sizing: border-box;
+    font-size: 2.5vh;
+    margin: 0px;
+    padding: 0px 0px 10px 0;
+    height: 20%;
+    clear: both;
+  }
+  
+  .sat-light-select{
+      float: right;
+      clear: both;
+      height: 40%;
+  }
+  
+  .line-width{
+    float: left;
+    clear: both;
+    height: 40%;
+    width: 100%;
+  }
+
+  .line-type .selected{
+    background-color: blue;
+  }
+
+  .line-width .selected{
+    background-color: blue;
+  }
+
+  .line-type{
+    float: left;
+    clear: both;
+    height: 40%;
+    width: 100%;
+  }
+  
+  .line-width > button{
+    float: left;
+  }
+
+  .line-type > button{
+    float: left;
+    padding: 0;
+    width: 23%;
+  }
+  
+  .color-selectors {
+    float: left;
+    clear: both;
+    height: 45vh;
+    width: 100%;
+  }
+
+  .stroke-selectors{
+    float: left;
+    clear: both;
+    height: 25vh;
+    width: 100%;
+  }
+  
+  .line-color{
+    box-sizing: border-box;
+    float: left;
+    clear: both;
+    margin: 1vh 0 1vh 0;
+    height: 20vh;
+    width: 100%;
+  }
+  
+  .fill-color{
+    float: left;
+    clear: both;
+    height: 20vh;
+    width: 100%;
+  }
+  
+  
+  .color-indicator{
+    float: right;
+    clear: both;
+    height: 40%;
+    width: 100%;
+  }
+
+  .color-select{
+
+    float: right;
+    width: 80%;
+    height: 20vh;
+  } 
+
+  .hue-select {
+    box-sizing: border-box;
+    float: left;
+    height: 20vh;
+    padding-top: 4vh;
+    width: 10%;
+  }
+
+  .hue-bar{
+    box-sizing: border-box;
+      height: 100%;
+      width: 100%;
+  }
